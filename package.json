@@ -1,29 +1,29 @@
 {
-   "name":"puzzle-box",
-   "description":"Sandboxing with call tracing and more",
-   "version":"0.0.1",
-   "homepage":"http://github.com/wearefractal/puzzle-box",
-   "repository":"git://github.com/wearefractal/puzzle-box.git",
-   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-   "main":"./index.js",
-   
-   "dependencies":{
-      "contextify":"*"
-   },
-   "devDependencies":{
-      "mocha":"*",
-      "should":"*"
-   },
-   "scripts":{
-      "test":"mocha"
-   },
-   "engines":{
-      "node":">= 0.4.0"
-   },
-   "licenses":[
-      {
-         "type":"MIT",
-         "url":"http://github.com/wearefractal/puzzle-box/raw/master/LICENSE"
-      }
-   ]
+  "name": "puzzle-box",
+  "description": "Sandboxing with call tracing and more",
+  "version": "0.0.1",
+  "homepage": "http://github.com/wearefractal/puzzle-box",
+  "repository": "git://github.com/wearefractal/puzzle-box.git",
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
+  "dependencies": {
+    "contextify": "^0.1.14",
+    "mpath": "^0.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/puzzle-box/raw/master/LICENSE"
+    }
+  ]
 }

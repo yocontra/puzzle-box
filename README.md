@@ -5,7 +5,7 @@
 ## Information
 
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>puzzle-box</td>
 </tr>
 <tr>
@@ -29,8 +29,10 @@ var test = puzzleBox.create();
 
 // set a global context for the sandbox
 test.context({
-  add: function(a, b){
-    return a+b;
+  math: {
+    add: function(a, b){
+      return a+b;
+    }
   }
 });
 
@@ -40,7 +42,7 @@ test.context({
 test.code('add(1,2); var hi = 123; finished();');
 
 // track calls to a function in the context
-test.track('add');
+test.track('math.add');
 
 // execute the code in the sandbox
 test.run();
@@ -48,7 +50,7 @@ test.run();
 test.on('finished', function(){
   // you can get a list of function calls
   // in order with name, arguments, and return value
-  console.log(test.calls()); // logs [ { fn: 'add', args: [ 1, 2 ], result: 3 } ]
+  console.log(test.calls()); // logs [ { fn: 'math.add', args: [ 1, 2 ], result: 3 } ]
 
   // you can access the sandbox context
   // this means you can check if values have been
