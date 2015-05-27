@@ -1,7 +1,7 @@
 {
   "name": "puzzle-box",
   "description": "Sandboxing with call tracing and more",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://github.com/wearefractal/puzzle-box",
   "repository": "git://github.com/wearefractal/puzzle-box.git",
   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
