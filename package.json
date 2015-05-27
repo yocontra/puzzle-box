@@ -8,6 +8,7 @@
   "main": "./index.js",
   "dependencies": {
     "contextify": "^0.1.14",
+    "fondue": "^0.6.1",
     "mpath": "^0.2.1"
   },
   "devDependencies": {

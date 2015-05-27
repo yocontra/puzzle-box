@@ -53,6 +53,28 @@ describe('PuzzleBox', function() {
         done();
       });
     });
+
+    it('should execute the code and emit finished with arguments', function(done) {
+      var puzzle = box.create();
+      var run = false;
+
+      puzzle.context({
+        test: function(a){
+          run = true;
+          return a;
+        }
+      });
+      puzzle.track('test');
+      puzzle.code('finished(test(123));');
+      puzzle.run();
+
+      puzzle.on('finished', function(arg){
+        run.should.equal(true);
+        should.exist(arg);
+        arg.should.equal(123);
+        done();
+      });
+    });
   });
 
   describe('track()', function() {
