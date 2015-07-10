@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "mocha": "^2.2.5",
-    "should": "^6.0.3"
+    "should": "^7.0.0"
   },
   "scripts": {
     "test": "mocha"
