@@ -1,30 +1,30 @@
 {
   "name": "puzzle-box",
   "description": "Sandboxing with call tracing and more",
-  "version": "0.2.0",
-  "homepage": "http://github.com/wearefractal/puzzle-box",
-  "repository": "git://github.com/wearefractal/puzzle-box.git",
-  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "version": "1.0.0",
+  "homepage": "http://github.com/contra/puzzle-box",
+  "repository": "git://github.com/contra/puzzle-box.git",
+  "author": "Contra <yo@contra.io> (https://contra.io/)",
   "main": "./index.js",
   "dependencies": {
-    "contextify": "^0.1.14",
     "fondue": "^0.6.1",
-    "mpath": "^0.2.1"
+    "mpath": "^0.7.0",
+    "vm2": "^3.9.2"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
-    "should": "^7.0.0"
+    "mocha": "^7.0.0",
+    "should": "^13.0.0"
   },
   "scripts": {
     "test": "mocha"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 10"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/wearefractal/puzzle-box/raw/master/LICENSE"
+      "url": "http://github.com/contra/puzzle-box/raw/master/LICENSE"
     }
   ]
 }
