@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/wearefractal/puzzle-box.png?branch=master)](https://travis-ci.org/wearefractal/puzzle-box)
+[![Build Status](https://travis-ci.org/contra/puzzle-box.png?branch=master)](https://travis-ci.org/contra/puzzle-box)
 
 [![NPM version](https://badge.fury.io/js/puzzle-box.png)](http://badge.fury.io/js/puzzle-box)
 
@@ -65,4 +65,4 @@ test.on('finished', function(){
 
 ## Examples
 
-You can view more examples in the [example folder.](https://github.com/wearefractal/puzzle-box/tree/master/examples)
+You can view more examples in the [example folder.](https://github.com/contra/puzzle-box/tree/master/examples)
